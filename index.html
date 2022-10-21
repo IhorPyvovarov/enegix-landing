@@ -17,9 +17,9 @@
                 <img src="img/enegix-logo.svg" alt="Logo" loading="lazy">
             </picture>
             <nav class="header-nav">
-                <a href="javascript:void(0)">Crypto</a>
-                <a href="javascript:void(0)">Fiat</a>
-                <a href="javascript:void(0)" class="btn btn-transparent">Download App</a>
+                <a href="#features">Features</a>
+                <a href="#howto">How to use</a>
+                <a href="#contact" class="btn btn-transparent">Download App</a>
             </nav>
         </header>
         <section class="container section-top text-center">
@@ -30,7 +30,7 @@
             </h1>
             <p class="section-top--desc mx-auto">Download the Enegix Payments app to purchase online and offline at merchants
                 worldwide. Enegix Payments Prepaid Card is available for everyone in cryptocommunity</p>
-            <a href="javascript:void(0)" class="btn btn-white mx-auto">
+            <a href="#contact" class="btn btn-white mx-auto" data-aos="fade-up">
                 Download App
                 <img src="img/dwnld-icon.svg" alt="" class="dwnld-icon" loading="lazy">
             </a>
@@ -45,8 +45,7 @@
                 </picture>
                 <iframe id="videoIFrame" class="video" style="display: none;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="section-features--inner">
-                <p class="h-sub">Features</p>
+            <div class="section-features--inner" id="howto">
                 <h2 class="h2 section-features--ttl mx-auto">How to use Enegix Payments Prepaid Card?</h2>
                 <p class="section-features--desc mx-auto">Erasing the boundaries between cryptocurrencies and the real world. Top up your virtual card with
                     cryptocurrency. Make payments everywhere Mastercard is accepted, immediately after applying.
@@ -54,7 +53,7 @@
                 <div class="section-features--cards">
                     <figure></figure>
                 </div>
-                <a href="" class="btn btn-white mx-auto">Download App
+                <a href="#contact" class="btn btn-white mx-auto" data-aos="fade-up">Download App
                 <img src="img/dwnld-icon-white.svg" alt="" class="dwnld-icon" loading="lazy"></a>
             </div>
         </div>
@@ -79,46 +78,44 @@
             <div class="swiper-button swiper-button-next"></div>
         </div>
     </section>
-    <section class="section-howto section-howto-bg">
+    <section class="section-howto section-howto-bg" id="features">
         <div class="container">
-            <p class="h-sub">Features</p>
-            <h2 class="h2">How to use Enegix</h2>
+            <h2 class="h2">Features</h2>
             <div class="items">
-                <div class="item">
-                    <figure class="mx-auto"><img src="img/howto1.svg" alt=""></figure>
-                    <p class="h3">Secure and private</p>
-                    <p>All your data is secured by best-in-class security services</p>
-                </div>
-                <div class="item">
+                <div class="item" data-aos="fade-up">
                     <figure class="mx-auto"><img src="img/howto2.svg" alt=""></figure>
                     <p class="h3">Flexible</p>
                     <p>Maximum user experience. View your funds, split, and merge your cards directly from the app</p>
                 </div>
-                <div class="item">
-                    <figure class="mx-auto"><img src="img/howto3.svg" alt=""></figure>
-                    <p class="h3">Fast</p>
-                    <p>Enegix Payments Card is issued immediately after applying. No wait for plastic</p>
-                </div>
-                <div class="item">
-                    <figure class="mx-auto"><img src="img/howto4.svg" alt=""></figure>
-                    <p class="h3">Zero fees</p>
-                    <p>Top up your Enegix Payments Card with no fees (third party fees may apply)</p>
-                </div>
-                <div class="item">
+                <div class="item" data-aos="fade-up">
                     <figure class="mx-auto"><img src="img/howto5.svg" alt=""></figure>
                     <p class="h3">Worldwide</p>
                     <p>Spend your funds at millions of online and offline merchants with contactless payment,
                         Apple Pay, Samsung Pay</p>
+                </div>
+                <div class="item" data-aos="fade-up">
+                    <figure class="mx-auto"><img src="img/howto3.svg" alt=""></figure>
+                    <p class="h3">Fast</p>
+                    <p>Enegix Payments Card is issued immediately after applying. No wait for plastic</p>
+                </div>
+                <div class="item" data-aos="fade-up">
+                    <figure class="mx-auto"><img src="img/howto4.svg" alt=""></figure>
+                    <p class="h3">Zero fees</p>
+                    <p>Top up your Enegix Payments Card with no fees (third party fees may apply)</p>
+                </div>
+                <div class="item" data-aos="fade-up">
+                    <figure class="mx-auto"><img src="img/howto1.svg" alt=""></figure>
+                    <p class="h3">Secure and private</p>
+                    <p>All your data is secured by best-in-class security services</p>
                 </div>
             </div>
         </div>
     </section>
     <section class="section-howto section-howto--snd bg-text-after">
         <div class="container">
-            <p class="h-sub">Features</p>
             <h2 class="h2"><span class="d">How</span> <span class="text-highlight bg-gradient">to use</span> <span class="d">it</span></h2>
         </div>
-        <div class="swiper slider-wrapper">
+        <div class="swiper slider-wrapper" data-aos="fade-left">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="slider-item">
@@ -159,7 +156,7 @@
             </div>
         </div>
     </section>
-    <section class="section-contact bg-gradient text-center">
+    <section class="section-contact bg-gradient text-center" id="contact">
         <div class="inner">
             <div class="bg-gray">
                 <div class="container">
@@ -200,7 +197,7 @@
                         </a>
                     </div>
                     <div class="copy">
-                        Сopyright © 2022 all rights reserved
+                        Сopyright © Enegix Payments LLC 2022 all rights reserved
                     </div>
                 </div>
             </div>
@@ -212,9 +209,13 @@
 <script src="js/swiper.min.js"></script>
 <script>
     AOS.init({
-        startEvent: 'DOMContentLoaded'
+        startEvent: 'DOMContentLoaded',
+        once: true
     })
     document.addEventListener('DOMContentLoaded', function () {
+        const th = document.querySelectorAll('.text-highlight:not(.bg-gradient)')
+        th.forEach((el) => el.classList.add('show'))
+
         let swiperCards = {}
         let init = false
         function initializeSwiperCards() {
