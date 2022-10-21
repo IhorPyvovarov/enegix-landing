@@ -62,7 +62,7 @@ figure {
 }
 
 .bg-gray {
-  background: #464646 url("../img/backplate.png");
+  background: #464646 url("..../img/backplate.png");
 }
 
 .bg-text-after {
@@ -76,10 +76,10 @@ figure {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: url("/img/text-bg.svg");
+  background: url("../img/text-bg.svg");
 }
 .bg-text-after-white::after {
-  background: url("/img/text-bg-white.svg");
+  background: url("../img/text-bg-white.svg");
 }
 
 .mx-auto {
@@ -270,7 +270,7 @@ input::placeholder {
   margin-left: -16px;
 }
 .section-features--cards figure {
-  background: url("/img/cards-mob.png") center/cover no-repeat;
+  background: url("../img/cards-mob.png") center/cover no-repeat;
   width: 100%;
   height: 100%;
 }
@@ -305,7 +305,7 @@ input::placeholder {
   display: block;
   width: 232px;
   height: 487px;
-  background: url("/img/phone-wrapper.png") no-repeat;
+  background: url("../img/phone-wrapper.png") no-repeat;
   background-size: contain;
   z-index: 1;
   position: absolute;
@@ -369,7 +369,7 @@ input::placeholder {
   justify-content: center;
 }
 .section-howto .slider-wrapper .slider-item {
-  background: url("/img/backplate_card.png") no-repeat;
+  background: url("../img/backplate_card.png") no-repeat;
   padding: 11px;
   min-height: 382px;
   width: 288px;
@@ -491,10 +491,10 @@ input::placeholder {
 }
 @media (min-width: 991.98px) {
   .bg-text-after::after {
-    background: url("/img/text-bg-lg.svg");
+    background: url("../img/text-bg-lg.svg");
   }
   .bg-text-after-white::after {
-    background: url("/img/text-bg-white-lg.svg");
+    background: url("../img/text-bg-white-lg.svg");
   }
 
   body {
@@ -550,7 +550,7 @@ input::placeholder {
   }
   .section-features--inner {
     margin-top: -110px;
-    background: url("/img/cards-desk.png") center top/cover no-repeat;
+    background: url("../img/cards-desk.png") center top/cover no-repeat;
   }
   .section-features--ttl {
     width: 678px;
@@ -603,10 +603,10 @@ input::placeholder {
 
   .bg-text-after::after {
     height: 280px;
-    background: url("/img/text-bg-lg.svg");
+    background: url("../img/text-bg-lg.svg");
   }
   .bg-text-after-white::after {
-    background: url("/img/text-bg-white-lg.svg");
+    background: url("../img/text-bg-white-lg.svg");
   }
 }
 @media (min-width: 1250px) {
