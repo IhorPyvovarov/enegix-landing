@@ -302,7 +302,6 @@ input {
                 position: relative;
                 transform: translateY(-90px);
                 width: 100%;
-                //overflow: hidden;
                 padding-top: 56.25%; /* 16:9 Aspect Ratio */
                 &::before {
                     content: "";
@@ -445,10 +444,7 @@ input {
             }
         }
         &--snd {
-            //margin-bottom: 111px;
-            .h3 {
-                //width: 288px;
-            }
+            overflow: hidden;
         }
     }
     &-contact {
@@ -676,9 +672,6 @@ input {
             &--desc {
                 width: 604px;
             }
-            &--slider {
-                //padding-bottom: 70px;
-            }
             .btn {
                 max-width: 330px;
             }
@@ -712,9 +705,6 @@ input {
             }
             &--snd {
                 padding-bottom: 225px;
-                .h3 {
-                    //width: 892px;
-                }
             }
         }
         &-contact {
@@ -741,14 +731,6 @@ input {
             }
         }
     }
-    .swiper-button {
-        &-prev {
-            //left: 200px;
-        }
-        &-next {
-            //right: 200px;
-        }
-    }
 }
 
 @media (min-width: 1250px) {
@@ -765,14 +747,6 @@ input {
 }
 
 @media (min-width: 1399.98px) {
-    .swiper-button {
-        &-prev {
-            //left: 300px;
-        }
-        &-next {
-            //right: 300px;
-        }
-    }
     .container {
         max-width: 1200px;
     }
@@ -780,7 +754,6 @@ input {
         &-features {
             &--inner {
                 overflow: visible;
-                //background-position-y: -180px;
                 padding-bottom: 135px;
                 background-size: contain;
             }

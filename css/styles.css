@@ -422,6 +422,9 @@ input::placeholder {
 .section-howto .slider-wrapper .slider-item .i {
   margin: 9px 0;
 }
+.section-howto--snd {
+  overflow: hidden;
+}
 .section-contact {
   min-height: 100vh;
   display: flex;
