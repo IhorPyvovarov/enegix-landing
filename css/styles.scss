@@ -94,6 +94,12 @@ figure {
         user-select: none;
         transition: opacity .4s ease, left .2s ease-out;
     }
+    &.gradient::before {
+        background: linear-gradient(90deg, #A2539F 0%, #665EA8 43.75%, #70C5A9 100%), linear-gradient(0deg, #F8F1F7, #F8F1F7);
+    }
+    &.shadow-right {
+        padding-right: 8px;
+    }
     &.show {
         &::before {
             left: 0;
@@ -771,4 +777,6 @@ input {
             }
         }
     }
-} 
+}
+
+@import "styles_about";
